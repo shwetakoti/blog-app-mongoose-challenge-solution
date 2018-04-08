@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: gn6C8gdq20EoHSfN5w216ZRvXwUu0P0dkuP1ZclYuI5HhZxSdc6oEs7uot3Gkx+Oh8DiD/plqexV1VSL9wb5wHcj0aC+NZsYLHlFw9LXUlZmKIgNWdkQE1PNJ3i5mWKX0PbjYlwQXb9y1Pu2L46EjQeOyRGO/w7KbM0VqrnsKccu1qZFHlfDPlLRM9JC3C73Ao7qweDMA76ow1ruVrR3J35xMnXTmK7J3V3FILtsnjgiD22l862QeoKoTAvtOD9teSTr274RbSf04e8X7Pzx/t3UYgnx3TkOqJbyyNrJNaXqwBcwvZTPQKZBqr6mUZ2tKIjMZlA5Gf5hAYujFaphCgc4PIvj6H1+RSKk+GIq8uFcELdU6dZm6+kO/No7HycI+Cym/igdV5WRJSHVWvsz8V6c0tEopZxENYVHbuDyDBoyxksdK71bHWh2YCrFCVdeSxeTVDl/qPjweXAEYvYxzj6/cdYyHQ8pQWU6CT0bumrSGi0WhyZCcwwRLBGeuJoJT/VsfQY0yoY9UI5QGiWjdawOIRUXHJinWS4+gAlR/mdDjHqeFLu96dwj3EFh2cSQTGNssicvDwq3aR+SAk0PBUewCWt4ixjxMWAaak3tNz+rtqwtxlBH7LIsI0F+I5Ov8t1To9IXwg58V1jj9TsIVA1WH5GTTMT6Hq/8xwTx/t4=
+  app: glacial-dusk-10958
+  on:
+    repo: shwetakoti/blog-app-mongoose-challenge-solution
